@@ -1,0 +1,49 @@
+body{
+    margin-left: 4px;
+}
+
+.product{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.productImg{
+    background-color: lightgray;
+    width: 100%;
+    padding: 5px;
+}
+
+.productImg img{
+    width:100%;
+}
+
+.productDescription .productTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.productDescription .productRatings{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    font-size:  1rem;
+
+}
+
+.productDescription .productCategory{
+    font-size: 1.2rem;
+
+
+}
+
+.productDescription .productPrice{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
